@@ -1,0 +1,18 @@
+# bird.obj
+
+v -0.5 -0.5 0.0  # vertex 1
+v -0.5 0.5 0.0   # vertex 2
+v 0.5 0.5 0.0   # vertex 3
+v 0.5 -0.5 0.0  # vertex 4
+
+vt 0.0 0.0     # texture coordinate 1
+vt 1.0 0.0     # texture coordinate 2
+vt 1.0 1.0     # texture coordinate 3
+vt 0.0 1.0     # texture coordinate 4
+
+f 1/1 2/2 3/3 4/4  # face 1
+
+vn 0.0 0.0 1.0  # normal vector 1
+
+usemtl bird     # material name
+s off          # smoothing group
